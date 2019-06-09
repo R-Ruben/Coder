@@ -1,0 +1,421 @@
+.wrapper {
+    margin-top: 50px;
+}
+
+.pull-right {
+    float: right;
+}
+
+#sidebar {
+    float: left;
+}
+
+.card {
+    width: 100%;
+}
+
+#content {
+    width: 100%;
+}
+
+.create-post {
+    margin-bottom: 20px;
+}
+
+.year {
+    width: 60px;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tox-notifications-container {
+    display: none;
+}
+
+.post-wrapper {
+    margin-bottom: 30px;
+
+}
+
+
+.comment-wrapper {
+    margin-bottom: 30px;
+}
+
+.abs-bottom {
+    position: absolute;
+    bottom: 5px;
+}
+
+.motivation-popup {
+    position: absolute;
+
+}
+
+.btn {
+    color: #fff !important;
+    min-width: 80px;
+    padding: 3px 8px;
+}
+
+.btn.upload-replace {
+    width: 100%;
+}
+
+.btn-link {
+    color: #3490dc !important;
+}
+
+#projects .btn, #applications .btn {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#applications textarea, #projects textarea {
+    min-height: 80px;
+    height: 80px;
+}
+
+.popup-container {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.popup {
+    background: #fff;
+    position: relative;
+    margin: 0 auto;
+    top: 40%;
+    height: 20%;
+    width: 50%;
+    padding: 20px;
+}
+
+.project .card-header h4 {
+    margin-bottom: 0px;
+}
+
+.bootstrap-table {
+    margin-bottom: 20px;
+    border: 10px solid white;
+}
+
+.navbar {
+    background: #f8fafc;
+}
+
+.badge {
+    background: #5bf;
+    border-radius: 1rem;
+    color: #fff;
+    padding: 0.60em 0.40em;
+    min-width: 20px;
+}
+
+
+//NOTIFICATIONS
+.notif-picture {
+    width: 20px;
+    height: 20px;
+    border-radius: 1rem;
+}
+
+.notification {
+    padding-right: 2.5rem;
+}
+
+
+.like-controls {
+    font-size: 24px;
+    color: #aaa;
+}
+
+.like-controls i:hover {
+    color: #5af;
+}
+
+.card .bootstrap-table:last-child {
+    margin-bottom: 0px;
+}
+
+.table {
+    background: #fff;
+}
+
+.profile-picture {
+    margin-bottom: 10px;
+}
+
+.secondary-text {
+    margin-top: 15px;
+    color: #888;
+}
+
+.btn-negative {
+    background-color: #A51;
+}
+
+.p-language-tag {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 3px 8px;
+    background: lightskyblue;
+    width: initial;
+}
+
+.tox .tox-statusbar {
+    display: none !important;
+}
+
+
+
+.p-lang-sort {
+    padding: 30px;
+}
+
+.post-rep {
+    font-size: 22px;
+    padding: 5px 12px;
+    background: #6b6;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.post-rep.negative {
+  background: #c55;
+  font-size: 22px;
+  padding: 5px 8px;
+}
+
+.nav-highlight {
+  border-radius: 5px;
+  background: #2b2;
+  color: #fff !important;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.projects-column {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.post-footer {
+    margin-top: 15px;
+}
+
+.row.application:nth-child(even) {
+    background: #eee;
+}
+
+.row.application {
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.row.project {
+    margin-bottom: 30px;
+}
+
+.positive-text {
+    color: #2b2;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.negative-text {
+    color: #c55;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.message {
+    margin-right:0px;
+    margin-top:10px;
+    border: 1px solid #ccc;
+    padding: 10px 10px 0px 10px;
+    
+}
+
+.message.user {
+    text-align:right;
+    background: #0084ff;
+    color: #fff;
+}
+
+.message a {
+    color: #000 !important;
+}
+
+.message.user a {
+    color: #fff !important;
+}
+
+.chat-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+.chat-name {
+    padding: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 65%;
+}
+
+.chat-friend {
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+.friend-list, .chat {
+    height: 100%;
+    overflow-y:scroll;
+}
+
+.tr-link:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#chat {
+    width: 100vw;
+    height: 90vh;
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+}
+
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapseCreate {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+;
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapseCreate:hover {
+    background-color: #555;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.create-post {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+
+.collapseCreate:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.collapseCreate.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+
+//DARK MODE
+// .bg-med {
+//     background: #222;
+// }
+
+// textarea {
+//     background-color: #222 !important;
+//     padding: 10px;
+// }
+
+// .post-title {
+//     background-color: #111 !important;
+// }
+
+// .tox .tox-tbtn svg {
+//     fill: #fff !important;
+// }
+
+// .tox, .tox :not(svg) {
+//     background-color: #222 !important;
+// }
+
+
+// .mce-content-body {
+//     color: #fff;
+//     padding: 15px;
+//     background-color: #111;
+// }
+
+// .form-control {
+//     color: #fff !important;
+// }
+
+
+
+
+/* CATEGORY TABS */
+
+.row.browse {
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 0.25rem;
+}
+
+.tab {
+    height: 44px;
+    width: 200px;
+    margin: auto;
+}
+
+.tablinks:hover {
+    background-color: #ddd;
+    text-decoration: none;
+}
+
+.tablinks {
+    font-size: 22px;
+    background-color: inherit;
+    width: 100px;
+    text-align: center;
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* END CATEGORY TABS */
